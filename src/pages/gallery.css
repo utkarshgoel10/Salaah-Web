@@ -1,0 +1,38 @@
+.gallery{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.swiper .swiper-fade .swiper-initialized .swiper-horizontal .swiper-pointer-events .swiper-watch-progress .swiper-backface-hidden .mySwiper{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    max-height: 80vh;
+    text-align: center;
+}
+.swiper-images{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.car__head {
+    /* width: 90%!important; */
+    max-height: 80vh !important;
+    /* width: 100vw !important; */    
+    background-repeat: no-repeat;
+    width: auto;
+  /* height: 50vh; */
+  /* width: 100vw; */
+  object-fit: cover;
+
+}
+.all__img:hover{
+    /* box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.095);     */
+    transform: scale(1.02);
+}
+.all__img{
+    transition: var(--transition);
+}
